@@ -1,0 +1,15 @@
+--- a/ext/openssl/ossl_ssl.c
++++ b/ext/openssl/ossl_ssl.c
+@@ -107,9 +107,9 @@ struct {
+     OSSL_SSL_METHOD_ENTRY(TLSv1),
+     OSSL_SSL_METHOD_ENTRY(TLSv1_server),
+     OSSL_SSL_METHOD_ENTRY(TLSv1_client),
+-    OSSL_SSL_METHOD_ENTRY(SSLv2),
+-    OSSL_SSL_METHOD_ENTRY(SSLv2_server),
+-    OSSL_SSL_METHOD_ENTRY(SSLv2_client),
++    /* OSSL_SSL_METHOD_ENTRY(SSLv2), */
++    /* OSSL_SSL_METHOD_ENTRY(SSLv2_server), */
++    /* OSSL_SSL_METHOD_ENTRY(SSLv2_client), */
+     OSSL_SSL_METHOD_ENTRY(SSLv3),
+     OSSL_SSL_METHOD_ENTRY(SSLv3_server),
+     OSSL_SSL_METHOD_ENTRY(SSLv3_client),
